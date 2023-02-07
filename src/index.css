@@ -1,18 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header Sectiob*/
+
+Header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #c9c5c5;
+    list-style: none;
+    height: 150px;
+
+}
+header nav {
+    display: flex;
+    
+}
+header nav li {
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+header nav li:hover {
+    color: rgb(91, 180, 180);
 }
 
-.App-header {
-  display: flex;
-  
+/* Footer Section*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #c9c5c5;
+    position: fixed;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
 }
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* About Section */
+.about {
+    background-color: #e2dddd;
+    height: 400px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 171, 171);
+    padding: 20px;
+}
+
+.aboutImg {
+    height: 200px;
+    width: 250px;
+    border: 2px solid aqua; 
+    border-radius: 50%; 
+    transition: 1.5s; 
+}
+.aboutImg:hover {
+    transform: scale(1.3);
+}
+.description {
+    display: flex;
+}
+.description p {
+    padding: 20px;
+    font-size: 20px;
+    color: #776e6e;
+}
+
+/* Contact Section*/
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #e2dddd;
+    height: fit-content;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 350px;
+    width: 400px;
+    border: 1.5px solid rgb(123, 218, 218);
+    border-radius: 20px;
+    text-align: center;  
+    font-size: 30px;
+    color: white;  
+    background-color: rgba(56, 49, 49, 0.3);
+
+}
+input {
+    margin: 20px;
+    height: 100px;
+    border: 1.5px solid rgb(123, 218, 218);
+    border-radius: 10px;
+}
+input::placeholder {
+    text-align: center;
+}
+.messageBox{
+    height: 300px;
+    border: 1.5px solid rgb(123, 218, 218);
+
+}
+.btnContact { 
+    border-radius: 10px;
+    border: 1.5px solid grey;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.btnContact:hover {
+    background-color: rgb(123, 218, 218) ;
+}
+
+/* Stack Section*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2dddd;
+    height: 400px;
+    
+}
+.card {
+    margin: 20px;
+    border: 1.5px solid rgb(123, 218, 218);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 3px 6px rgb(221, 207, 207);
+    transition: 2s;
+}
+.card:hover {
+    transform: scale(1.2);
+
+}
+.card li {
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    color: rgb(105, 97, 97);
+}
+.listHeader {
+    font-size: 25px;
+}
+
+
+
+    
