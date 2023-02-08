@@ -163,6 +163,7 @@ input::placeholder {
 }
 .listHeader {
     font-size: 25px;
+    text-decoration-line: underline;
 }
 
 

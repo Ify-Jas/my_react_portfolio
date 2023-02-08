@@ -1,4 +1,5 @@
 import pic from "../images/mypic.jpg"
+
 function About() {
   return (
     <div className='about'>

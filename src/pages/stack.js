@@ -1,29 +1,30 @@
+
 function Stack(){
     return (
         <div className='container'>
             <div className="card">
                 <ul className="list-group list-group-flush">
-                    <li class="listHeader">Basic Language</li>
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">JavaScript</li>
+                    <li className='listHeader'>Basic Language</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
 
                 </ul>
             </div>
             <div className='row'>
                 <div className="card">
                     <ul className="list-group list-group-flush">
-                        <li class="listHeader">Framework</li>
-                        <li class="list-group-item">Bootstrap</li>
-                        <li class="list-group-item">NodeJs</li>
+                        <li className='listHeader'>Framework</li>
+                        <li>Bootstrap</li>
+                        <li>NodeJs</li>
                     </ul>
                 </div>
 
                 <div className="card">
                     <ul className="list-group list-group-flush">
-                        <li class="listHeader">Library</li>
-                        <li class="list-group-item">ReactJS</li>
-                        <li class="list-group-item">jQuery</li>
+                        <li className='listHeader'>Library</li>
+                        <li>ReactJS</li>
+                        <li>jQuery</li>
                     </ul>
                 </div>
 
@@ -31,11 +32,11 @@ function Stack(){
                      
             <div className="card">
                 <ul className="list-group list-group-flush">
-                    <li class="listHeader">Extra</li>
-                    <li class="list-group-item">Git</li>
-                    <li class="list-group-item">Github</li>
-                    <li class="list-group-item">APIs</li>
-                    <li class="list-group-item">VS Code</li>
+                    <li className='listHeader'>Extra</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>APIs</li>
+                    <li>VS Code</li>
                </ul>
             </div>
             
