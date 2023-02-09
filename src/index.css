@@ -18,12 +18,13 @@ header nav {
     display: flex;
     
 }
-header nav li {
+.link {
     padding: 20px;
     font-size: 25px;
     color: white;
+    text-decoration: none;
 }
-header nav li:hover {
+.link:hover {
     color: rgb(91, 180, 180);
 }
 
@@ -99,7 +100,7 @@ section div {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    height: 350px;
+    height: 370px;
     width: 400px;
     border: 1.5px solid rgb(123, 218, 218);
     border-radius: 20px;
@@ -169,7 +170,7 @@ input::placeholder {
 /* Portfolio Section*/
 
 .mainPort{
-    height: 300vh;
+    height: 320vh;
     background-color: #e2dddd;
 
 }
