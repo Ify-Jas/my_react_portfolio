@@ -4,7 +4,7 @@
 "projects": [
     {
     "title": "Team Profile Generator",
-    "image": "./images/teamprofile.png",
+    "image": "../images/teamprofile.png",
     "repo": "https://github.com/Ify-Jas/Team-profile-generator",
     "description": "This is an app that uses npm inquirer to get information from user and generate a profile.",
     "page": "",
@@ -12,7 +12,7 @@
 },
 {
     "title": "ReadME File Generator",
-    "image": "./images/readmefile.png",
+    "image": "../images/readmefile.png",
     "repo": "https://github.com/Ify-Jas/ReadMe-File-Generator",
     "description": "This is an app that uses npm inquirer to get information from user and generate a ReadME file.",
     "page": "",
@@ -20,7 +20,7 @@
 },
 {
     "title": "Weather App",
-    "image": "./images/weather-app.png",
+    "image": "../images/weather-app.png",
     "repo": "https://github.com/Ify-Jas/weather-app",
     "description": "This is a 5-day weather forecast app, user searches a particular location and is provided with forecast for location.",
     "page": "https://ify-jas.github.io/weather-app/",
@@ -28,7 +28,7 @@
 },
 {
     "title": "Day Planner App",
-    "image": "./images/day-planner-image.png",
+    "image": "../images/day-planner-image.png",
     "repo": "https://github.com/Ify-Jas/day-planner",
     "description": "This app allows to user to search for any movie title and get a list of the best matched.",
     "page": "https://ify-jas.github.io/day-planner/",
@@ -36,7 +36,7 @@
 },
 {
     "title": "Password Generator",
-    "image": "./images/passwordgenerator.png",
+    "image": "../images/passwordgenerator.png",
     "repo": "https://github.com/Ify-Jas/password-generator",
     "description": "This is a random password generator that allows the user to select length of password as well as characters.",
     "page": "https://ify-jas.github.io/password-generator/",
@@ -44,7 +44,7 @@
 },
 {
     "title": "Recipedia",
-    "image": "./images/recipedia.png",
+    "image": "../images/recipedia.png",
     "repo": "https://github.com/o1ujok3/Recipedia",
     "description": "This is a group project that users can search a particular dish or ingredient to get recipes with an added restaurant list depending on user location.",
     "page": "https://o1ujok3.github.io/Recipedia/",
