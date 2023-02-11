@@ -14,6 +14,8 @@ function Contact(){
                 <a target='_blank'  href="https://github.com/Ify-Jas">Github</a>
                 <a target='_blank'  href='https://linkedin.com/in/ifeoma-ezeoke'>LinkedIn</a>
                 <a href="mailto:ify.frontend@gmail.com?"> Email</a>
+                <a target='_blank'  href='https://drive.google.com/file/d/1uSRJ6sn_vQDlqLnudqX51dEol2-yUa7-/view?usp=share_link'>Curriculum Vitae</a>
+
 
             </div>
         </section>
