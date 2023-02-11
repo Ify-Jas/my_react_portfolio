@@ -18,8 +18,8 @@ function Portfolio(){
               <div className='info'>
                 <h3>{data.title}</h3>
                 <p>{data.description}</p>
-                <a href={data.repo}>Github Repo</a>
-                <a href={data.page}>Deployed Page</a>
+                <a target='_blank'  href={data.repo}>Github Repo</a>
+                <a target='_blank' href={data.page}>Deployed Page</a>
                 <p>Skills: {data.tech}</p>
               </div>
             </div>
