@@ -1,6 +1,5 @@
 import json from '../project.json'
 
-
 function Portfolio(){
     const data = json.projects;
     
