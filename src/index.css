@@ -104,6 +104,7 @@ section{
     justify-content: space-evenly;
     align-items: center;
     background-color: #e2dddd;
+    
 }
 section div {
     display: flex;
@@ -198,6 +199,7 @@ section div a:hover {
 .mainPort{
     height: 320vh;
     background-color: #e2dddd;
+    padding: 20px;
 
 }
 .eachCard{
@@ -241,6 +243,37 @@ section div a:hover {
 }
 .img{
     margin: 30px;
+}
+
+/*Media Query - mobile styles*/
+@media (max-width:768px) {
+    .about{
+        height: 150vh;
+    }
+    .content {
+        flex-direction: column;
+        height: 100vh;
+        margin: 20px;
+    }
+    .mainPort{
+        padding: 20px;
+    }
+    .eachCard{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+        height: 180vh;
+
+    }
+    section {
+        flex-direction: column;
+        height: 180vh;
+    }
+    section div {
+        flex-direction: column;
+        
+    }
 }
 
 
