@@ -44,4 +44,4 @@
   ## Contact
   Link to Repo: github.com/ify-jas
 
-  Email: ifyezeoke@gmail.com
+  Email: ify.frontend@gmail.com
