@@ -27,7 +27,9 @@
   Navigate to all the pages using the Nav bar.
   To download, git clone.
   Nodejs and React needs to be downloaded.
-    ![Screenchot of portfolio](../../../Pictures/Screenshots/Screenshot%20(36).png)
+    ![screenshot of portfolio about page](src/images/Screenshot%20(36).png)
+
+
 
   ## License
   MIT License
