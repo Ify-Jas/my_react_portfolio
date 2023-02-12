@@ -53,6 +53,15 @@ Footer a:hover {
 }
 
 
+/* Landing Section */
+.Landing {
+    background-color: #e2dddd;
+}
+.homepic{
+    height: 400px;
+    width: 100%;
+}
+
 
 /* About Section */
 .about {
@@ -225,10 +234,18 @@ section div a:hover {
 
 
 }
-.info p, a {
+.info p{
     font-size: 20px;
     text-decoration: none;
     color: rgb(105, 97, 97);
+    padding: 20px;
+
+    
+}
+.info a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
     padding: 20px;
 
     
