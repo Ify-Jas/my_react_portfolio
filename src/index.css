@@ -151,13 +151,10 @@ input, .messageBox::placeholder {
 section div a{
     text-decoration: none;
     color: white;
-    margin: 15px;
     font-size: 22px;
 }
 section div a:hover {
-    color: rgb(91, 180, 180);
-
-  
+    color: rgb(91, 180, 180);  
 }
 
 
