@@ -265,7 +265,7 @@ section div a:hover {
     width: 350px;
 }
 
-/*Media Query - mobile styles*/
+/* Media Query - mobile styles*/
 @media (max-width:768px) {
     .about{
         height: 150vh;
@@ -296,6 +296,58 @@ section div a:hover {
     }
 }
 
+@media (max-width:360px) {
+    /* header section */
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*About Section */
+    .about{
+        height: 200vh;
+    }
+    .content {
+        flex-direction: column;
+        height: 150vh;
+        margin: 20px;
+    }
+    /*portfolio Section */
+    .mainPort{
+        padding: 20px;
+    }
+    .eachCard{
+        flex-direction: column;
+    }
+    .img{
+        width: 220px;
+    }
+    /* Stack section */
+    .container{
+        flex-direction: column;
+        height: 180vh;
+
+    }
+    /*contact section*/
+    section {
+        flex-direction: column;
+        height: 180vh;
+    }
+    section div {
+        flex-direction: column;
+        width: 300px;
+        
+    }
+    .homepic{
+        height: 450px;
+        width: 100%;
+    }
+    
+
+}
 
 
 
