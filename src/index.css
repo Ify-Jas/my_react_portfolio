@@ -1,7 +1,14 @@
+:root {
+    --black: black;
+    --darkgrey: #6b6666;
+    --darkergrey: #1a1818;
+    --turqoise: rgb(91, 180, 180);
+}
 * {
     margin: 0;
     padding: 0;
 }
+
 
 /* Header Sectiob*/
 
@@ -9,7 +16,7 @@ Header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #c9c5c5;
+    background-color: var(--black);
     list-style: none;
     height: 150px;
 
@@ -30,22 +37,17 @@ header nav {
 
 /* Footer Section*/
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    background-color: #c9c5c5;
-    position: fixed;
-    bottom: 0;
-    height: 120px;
-    width: 100%;
+ 
+    margin: auto;
+    text-align: center;
+    background-color: var(--black);
 }
 footer p {
     color: white;
     font-size: 15px;
 }
-.ic {
-    display: flex;
-    justify-content: space-around;
+
+Footer a {
     color: white;
 }
 Footer a:hover {
@@ -55,10 +57,10 @@ Footer a:hover {
 
 /* Landing Section */
 .Landing {
-    background-color: #e2dddd;
+    background-color: var(--black);
 }
 .homepic{
-    height: 400px;
+    height: 550px;
     width: 100%;
 }
 
@@ -66,7 +68,7 @@ Footer a:hover {
 /* About Section */
 .about {
     background-color: black;
-    height: 400px;
+    height: 500px;
     padding: 20px;
 }
 
@@ -113,6 +115,7 @@ section{
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
+    height: 540px;
     
 }
 section div {
@@ -126,7 +129,7 @@ section div {
     text-align: center;  
     font-size: 30px;
     color: white;  
-    background-color: #c9c5c5;
+    background-color: var(--darkergrey);
 
 
 }
@@ -174,18 +177,17 @@ section div a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 425px;
+    height: 525px;
     background-color: black;
     
 }
 .card {
     margin: 15px;
-    border: 1.5px solid rgb(123, 218, 218);
     border-radius: 10px;
     width: 300px;
-    box-shadow: 3px 6px rgb(221, 207, 207);
+    box-shadow: 0px 2px 6px darkgrey;
     transition: 2s;
-    background-color: #e2dddd;
+    background-color: var(--darkergrey);
 
 }
 .card:hover {
@@ -196,7 +198,7 @@ section div a:hover {
     list-style: none;
     padding: 15px;
     text-align: center;
-    color: rgb(105, 97, 97);
+    color: white;
 }
 .listHeader {
     font-size: 25px;
@@ -207,7 +209,7 @@ section div a:hover {
 
 .mainPort{
   
-    height: auto;
+    height: 600vh;
     background-color: black;
     padding: 20px;
 
@@ -215,12 +217,11 @@ section div a:hover {
 .info{
     display: flex;
     flex-direction: column;
-    border: 1.5px solid rgb(123, 218, 218);
     border-radius: 20px;
-    box-shadow: 3px 6px  #beb6b6;
+    box-shadow: 0px 2px 6px darkgrey;
     height: auto;
     margin: 25px;  
-    background-color: #e2dddd;
+    background-color: var(--darkergrey);
     
     
 }
@@ -232,7 +233,7 @@ section div a:hover {
 }
 .info h3 {
     font-size: 25px;
-    color: rgb(105, 97, 97);
+    color: white;
     text-decoration-line: underline;
     padding: 20px;
 
@@ -241,7 +242,7 @@ section div a:hover {
 .info p{
     font-size: 20px;
     text-decoration: none;
-    color: rgb(105, 97, 97);
+    color: white;
     padding: 20px;
 
     
@@ -249,7 +250,7 @@ section div a:hover {
 .info a {
     font-size: 20px;
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
     padding: 20px;
 
     
@@ -267,16 +268,29 @@ section div a:hover {
 
 /* Media Query - mobile styles*/
 @media (max-width:768px) {
+        /* header section */
+        header{
+            display: flex;
+            justify-content: center;
+        }
+        header nav {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    /* about section */
+    
     .about{
-        height: 150vh;
+        height: 200vh;
     }
     .content {
         flex-direction: column;
-        height: 100vh;
+        height: 130vh;
         margin: 20px;
     }
+    /*portfolio*/
     .mainPort{
         padding: 20px;
+        height: 650vh;
     }
     .eachCard{
         flex-direction: column;
@@ -293,6 +307,9 @@ section div a:hover {
     section div {
         flex-direction: column;
         
+    }
+    .img{
+        width: 270px;
     }
 }
 
@@ -318,12 +335,13 @@ section div a:hover {
     /*portfolio Section */
     .mainPort{
         padding: 20px;
+        height: 700vh;
     }
     .eachCard{
         flex-direction: column;
     }
     .img{
-        width: 220px;
+        width: 200px;
     }
     /* Stack section */
     .container{
@@ -348,7 +366,41 @@ section div a:hover {
     
 
 }
+@media(max-width: 320px){
+    /*Header Section*/
+    header {
+       height: 170px;
+    }
+    .link {
+        padding: 10px;
+    }
+    /*Portfolio Section*/
+    .mainPort{
+        height: 750vh;
+    }
+    .img{
+        width: 160px;
+    }
+    /*Stack Section*/
+   .card {
+    width: 240px;
+   }
+    /*Contact Section*/
+    section div {
+        flex-direction: column;
+        width: 250px;
+        
+    }
+    /*landing*/
+    .homepic{
+        height: 600px;
+        width: 100%;
+    }
 
+
+
+
+}
 
 
     

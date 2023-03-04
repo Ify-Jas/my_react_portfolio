@@ -4,6 +4,7 @@ function Header(){
     return (
         <header>
           <nav>
+            <NavLink className='link' to='/my_react_portfolio/'>Home</NavLink>
             <NavLink className='link' to='/about'>About</NavLink>
             <NavLink className='link' to='/portfolio'>Portfolio</NavLink>
             <NavLink className='link' to='/stack'>Stack</NavLink>

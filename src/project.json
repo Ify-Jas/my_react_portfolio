@@ -48,7 +48,7 @@
     "repo": "https://github.com/o1ujok3/Recipedia",
     "description": "This is a group project that users can search a particular dish or ingredient to get recipes with an added restaurant list depending on user location.",
     "page": "https://o1ujok3.github.io/Recipedia/",
-    "tech": ["API"," ", "JS"," ", "CSS"]       
+    "tech": ["API"," ", "JS"," ", "CSS", " ", "Agile methodology"]       
 }
 ]  
 }

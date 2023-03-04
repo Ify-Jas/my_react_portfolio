@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faCodeCompare, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 
 
@@ -10,8 +12,8 @@ function Footer(){
             <div>
               <div className='ic'>
                  <a href='mailto:ify.frontend@gmail.com?'><FontAwesomeIcon size='2x' icon={faEnvelope} /></a>
-                 <a href='https://github.com/Ify-Jas'><FontAwesomeIcon size='2x' icon={faCodeCompare} /></a>
-                 <a href='https://linkedin.com/in/ifeoma-ezeoke'><FontAwesomeIcon size='2x' icon={faLink} /></a>
+                 <a href='https://github.com/Ify-Jas'><FontAwesomeIcon size='2x' icon={faGithub} /></a>
+                 <a href='https://linkedin.com/in/ifeoma-ezeoke'><FontAwesomeIcon size='2x' icon={faLinkedin} /></a>
               </div>
               <p>© Ifeoma Ezeoke Company</p> 
 

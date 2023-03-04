@@ -19,7 +19,7 @@ function App() {
     
 
       <Routes>
-        <Route path={'/my_react_portfolio/'} element={<Landing />}/>
+        <Route path={'/my_react_portfolio'} element={<Landing />}/>
         <Route path={'/about'} element={<About />}/>
         <Route path={'/portfolio'} element={<Portfolio />}/>
         <Route path={'/stack'} element={<Stack />} />
