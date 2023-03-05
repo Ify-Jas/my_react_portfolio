@@ -373,6 +373,7 @@ section div a:hover {
     }
     .link {
         padding: 10px;
+        font-size: 15px;
     }
     /*Portfolio Section*/
     .mainPort{
