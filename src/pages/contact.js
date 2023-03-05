@@ -6,7 +6,7 @@ function Contact(){
         name: "",
         email: "",
         message: "",
-        access_Key: "69a99131-06c1-49cd-a6da-29cdb9a89140",
+       access_key: '69a99131-06c1-49cd-a6da-29cdb9a89140'
     });
     const handleChange =(event)=>{
         setContactData({
@@ -34,6 +34,7 @@ function Contact(){
       .then(res => res.json())
       .then((data)=>{
         console.log(data);
+        alert('Email Sent Successfully');
         setContactData({
             ...contactData,
             name: '',
