@@ -366,41 +366,44 @@ section div a:hover {
     
 
 }
-@media(max-width: 320px){
+@media (max-width:320px) {
     /*Header Section*/
-    header {
-       height: 170px;
-    }
-    .link {
-        padding: 10px;
-        font-size: 15px;
-    }
-    /*Portfolio Section*/
-    .mainPort{
-        height: 750vh;
-    }
-    .img{
-        width: 160px;
-    }
-    /*Stack Section*/
-   .card {
-    width: 240px;
-   }
-    /*Contact Section*/
-    section div {
-        flex-direction: column;
-        width: 250px;
-        
-    }
-    /*landing*/
-    .homepic{
-        height: 600px;
-        width: 100%;
-    }
-
-
-
-
+        header {
+            height: 170px;
+        }
+    
+        .link {
+            padding: 10px;
+            font-size: 15px;
+        }
+    
+        /*Portfolio Section*/
+        .mainPort {
+            height: 750vh;
+        }
+    
+        .img {
+            width: 160px;
+        }
+    
+        /*Stack Section*/
+        .card {
+            width: 240px;
+        }
+    
+        /*Contact Section*/
+        section div {
+            flex-direction: column;
+            width: 250px;
+    
+        }
+    
+        /*landing*/
+        .homepic {
+            height: 600px;
+            width: 100%;
+        }
+    
 }
 
 
