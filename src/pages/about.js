@@ -16,7 +16,7 @@ function About() {
           <p>
 
             I am a frontend developer who lives in London, United Kingdom.
-            I am passionate about my aquired skill and look forward to what the future holds in the industry.
+            I am passionate about my acquired skill and look forward to what the future holds in the industry.
 
             So far, I have developed skills in the basics of frontend language as well as adding some frameworks and library to my stack.
           </p>
