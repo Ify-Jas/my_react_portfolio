@@ -5,10 +5,10 @@ function Header(){
         <header>
           <nav>
             <NavLink className='link' to='/my_react_portfolio/'>Home</NavLink>
-            <NavLink className='link' to='/about'>About</NavLink>
-            <NavLink className='link' to='/portfolio'>Portfolio</NavLink>
-            <NavLink className='link' to='/stack'>Stack</NavLink>
-            <NavLink className='link' to='/contact'>Contact</NavLink>
+            <NavLink className='link' to='/my_react_portfolio/about'>About</NavLink>
+            <NavLink className='link' to='/my_react_portfolio/portfolio'>Portfolio</NavLink>
+            <NavLink className='link' to='/my_react_portfolio/stack'>Stack</NavLink>
+            <NavLink className='link' to='/my_react_portfolio/contact'>Contact</NavLink>
           
           </nav>  
         </header>
