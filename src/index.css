@@ -209,7 +209,7 @@ section div a:hover {
 
 .mainPort{
   
-    height: 600vh;
+    height: 700vh;
     background-color: black;
     padding: 20px;
 
@@ -290,7 +290,7 @@ section div a:hover {
     /*portfolio*/
     .mainPort{
         padding: 20px;
-        height: 650vh;
+        height: 750vh;
     }
     .eachCard{
         flex-direction: column;
@@ -339,7 +339,7 @@ section div a:hover {
     /*portfolio Section */
     .mainPort{
         padding: 20px;
-        height: 700vh;
+        height: 800vh;
     }
     .eachCard{
         flex-direction: column;
@@ -383,7 +383,7 @@ section div a:hover {
     
         /*Portfolio Section*/
         .mainPort {
-            height: 750vh;
+            height: 850vh;
         }
     
         .img {
