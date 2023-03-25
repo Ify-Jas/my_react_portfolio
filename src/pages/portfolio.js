@@ -1,10 +1,11 @@
 import json from '../project.json'
-import pic1 from './images/teamprofile.png'
-import pic2 from './images/readmefile.png'
-import pic3 from './images/weather-app.png'
-import pic4 from './images/day-planner-image.png'
-import pic5 from './images/passwordgenerator.png'
-import pic6 from './images/recipedia.png'
+import pic1 from './images/propertysite.png'
+import pic2 from './images/teamprofile.png'
+import pic3 from './images/readmefile.png'
+import pic4 from './images/weather-app.png'
+import pic5 from './images/day-planner-image.png'
+import pic6 from './images/passwordgenerator.png'
+import pic7 from './images/recipedia.png'
 
 
 
@@ -13,9 +14,8 @@ import pic6 from './images/recipedia.png'
 
 function Portfolio(){
     const data = json.projects;
-    const pics = [pic1, pic2, pic3, pic4, pic5, pic6];
-    const myCard = document.getElementsByClassName('eachCard');
-    const myPic = document.getElementsByClassName('img');
+    const pics = [pic1, pic2, pic3, pic4, pic5, pic6, pic7];
+
   
 
     return(

@@ -3,6 +3,14 @@
 {
 "projects": [
     {
+    "title": "Property Site",
+    "image": "./images/teamprofile.png",
+    "repo": "https://github.com/Ify-Jas/propertysite",
+    "description": "This is a property template site built using React, this can be adjusted to fit a clients needs",
+    "page": "https://propertysitetemplate.netlify.app",
+    "tech": ["ReactJS", " ", "Bootstrap"]
+},
+    {
     "title": "Team Profile Generator",
     "image": "./images/teamprofile.png",
     "repo": "https://github.com/Ify-Jas/Team-profile-generator",
