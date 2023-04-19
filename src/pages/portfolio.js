@@ -1,9 +1,9 @@
 import json from '../project.json'
 import pic1 from './images/propertysite.png'
-import pic2 from './images/teamprofile.png'
-import pic3 from './images/readmefile.png'
+import pic2 from './images/lawfirm.png';
+import pic3 from './images/teamprofile.png'
+import pic4 from './images/readmefile.png'
 import pic4 from './images/weather-app.png'
-import pic5 from './images/day-planner-image.png'
 import pic6 from './images/passwordgenerator.png'
 import pic7 from './images/recipedia.png'
 
