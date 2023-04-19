@@ -28,10 +28,10 @@ function Portfolio(){
              <div className='info' key={index}>
                  <h3>{data.title}</h3>
                  <p>{data.description}</p>
-                 <a target='_blank'  href={data.repo}>Github Repo</a>
-                 <a target='_blank' href={data.page}>Deployed Page</a>
+                 <a target='_blank' rel="noreferrer" href={data.repo}>Github Repo</a>
+                 <a target='_blank' rel="noreferrer" href={data.page}>Deployed Page</a>
                  <p>Skills: {data.tech}</p>
-                 <img className='img' src={pics[index]} key={index} alt='image of the project'/>
+                 <img className='img' src={pics[index]} key={index} alt='showing the project'/>
 
                  
              </div>
