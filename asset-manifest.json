@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/my_react_portfolio/static/css/main.399d04e7.css",
-    "main.js": "/my_react_portfolio/static/js/main.497cf15b.js",
+    "main.js": "/my_react_portfolio/static/js/main.72344176.js",
+    "static/media/lawfirm.png": "/my_react_portfolio/static/media/lawfirm.16d510ebf717854c7f3b.png",
     "static/media/Home.png": "/my_react_portfolio/static/media/Home.1af1229ac0d64977293a.png",
     "static/media/recipedia.png": "/my_react_portfolio/static/media/recipedia.ccd2315a34eefb5e13e2.png",
     "static/media/mypic.jpg": "/my_react_portfolio/static/media/mypic.3cc1fd0a6a8163986b7e.jpg",
     "static/media/readmefile.png": "/my_react_portfolio/static/media/readmefile.b03f8957fbba83b7f241.png",
     "static/media/propertysite.png": "/my_react_portfolio/static/media/propertysite.f4763cce8ce24b45baa6.png",
-    "static/media/day-planner-image.png": "/my_react_portfolio/static/media/day-planner-image.6b3e0d9139793d8416f2.png",
     "static/media/weather-app.png": "/my_react_portfolio/static/media/weather-app.d9a7ec9334fbc1a3f28c.png",
     "static/media/teamprofile.png": "/my_react_portfolio/static/media/teamprofile.6d8ffa6f7bbf62cd5e51.png",
     "static/media/passwordgenerator.png": "/my_react_portfolio/static/media/passwordgenerator.a2949d0e5607ee76e941.png",
     "index.html": "/my_react_portfolio/index.html",
     "main.399d04e7.css.map": "/my_react_portfolio/static/css/main.399d04e7.css.map",
-    "main.497cf15b.js.map": "/my_react_portfolio/static/js/main.497cf15b.js.map"
+    "main.72344176.js.map": "/my_react_portfolio/static/js/main.72344176.js.map"
   },
   "entrypoints": [
     "static/css/main.399d04e7.css",
-    "static/js/main.497cf15b.js"
+    "static/js/main.72344176.js"
   ]
 }
