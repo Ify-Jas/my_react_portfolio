@@ -1,9 +1,11 @@
+import FormPage from "../component/formPage";
+
 function Home(){
     return(
         <div>
-            <Header />
-            <FormPage />
-            <Footer />
+            
+            <FormPage />    
+            
            
         </div>
     )
