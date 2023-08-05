@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main);
 }
 
 code {
@@ -12,7 +13,63 @@ code {
     monospace;
 }
 
-.App-header {
+:root{
+  --main: #01052bef;
+  --sub: rgb(239, 243, 6);
+
+
+}
+
+/* form section */
+
+.form{
   display: flex;
-  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+input, .formDistance{
+  padding: 15px;
+  margin: 10px;
+  width: 500px;
+  border: 2px solid var(--sub);
+  border-radius: 10px;
+}
+.formBtn{
+  padding: 15px;
+  margin: 20px;
+  width: 200px;
+  background-color: var(--sub);
+  color: var(--main);
+  font-size: 20px;
+  border: 2px solid var(--main);
+  border-radius: 10px;
+
+}
+.formBtn:hover{
+  background-color: var(--main);
+  color: var(--sub);
+  border: 2px solid var(--sub);
+}
+.formDistance{
+  width: 535px;
+}
+
+/* Header section */
+
+.brandName{
+  padding: 20px;
+  font-size: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: var(--main);
+}
+
+.logo{
+  padding: 20px;
+  height: 150px;
+  width: 150px;
 }
