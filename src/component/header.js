@@ -6,9 +6,9 @@ function Header() {
   return (
     <>
 
-      <Navbar className="bg-body-tertiary header">
+      <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#" className='brandName'>
+          <Navbar.Brand href="#" className='header'>
             <img
               alt="brand logo"
               src={logo}

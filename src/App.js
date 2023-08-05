@@ -1,7 +1,7 @@
 import Home from "./pages/home";
 import Contact from "./pages/contact";
 import Header from "./component/header";
-import Footer from "./component/header";
+import Footer from "./component/footer";
 import { Routes, Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
