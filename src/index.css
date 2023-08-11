@@ -74,3 +74,28 @@ input, .formDistance{
   height: 150px;
   width: 150px;
 }
+
+/* Footer section */
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main);
+  padding: 10px;
+  color: var(--sub);
+
+}
+.footerContainer h1{
+  color: var(--sub);
+}
+.list a{
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+.list a:hover{
+  color: var(--sub);
+}
