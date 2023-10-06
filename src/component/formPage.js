@@ -1,4 +1,6 @@
 import {useState} from "react";
+import Accordion from 'react-bootstrap/Accordion';
+import  ReactDOM from 'react-dom/client';
 
 const apiKey = '0996c468cae7cea3ab5d1ac0d4db8218';
 const appID = "a8f9fe6e";
@@ -41,25 +43,41 @@ function FormPage(){
                 distance: '',
                 minSalary: '',
                 maxSalary: ''  
-               })
-               {data.map((data, index)=>{
-                const result = document.getElementsByClassName(results);
-                result.append(
-                    <div>
-                        <h2>{data.title}</h2>
-                        <p>Company: {data.company.display_name}</p>
-                        <p>Location: {data.location.display_name}</p>
-                        <p>Salary: {data.salary_min}</p>
-                        <p>Contract time: {data.contract_time}</p>
-                        <p>Contract type: {data.contract_type}</p>
-                    </div>
-                )
-              
-             })}
+               }) 
+               const result = data.results;
+               display(result);  
             })
-        
+           
         }
     }
+    const display = (result)=>{
+        console.log(result)
+        const list = document.getElementsByClassName('results');
+        
+        {result.map((result, index)=>(
+                <div key={index}>
+                    <h2>{result.title}</h2>
+                    <p>Company: {result.company.display_name}</p>
+                    <p>Location: {result.location.display_name}</p>
+                    <p>Salary: {result.salary_min}</p>
+                    <p>Contract time: {result.contract_time}</p>
+                    <p>Contract type: {result.contract_type}</p>
+                    <Accordion defaultActiveKey="0">
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>View Description</Accordion.Header>
+                            <Accordion.Body>
+                               {result.description}
+
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </div>
+            
+          
+         ))}
+
+    }
+    
     return(
         <div>
             <form className="form" >
@@ -119,8 +137,10 @@ function FormPage(){
                 onClick={handleClick}
                 >Search</button>
             </form>
-            <section className="result"> </section>
-                         
+            <section className="results">
+                
+                
+            </section>      
         </div>
     )
 
